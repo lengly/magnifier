@@ -1,0 +1,35 @@
+#demo {
+	margin: 50px;
+}
+
+#small-box {
+	position: relative;
+}
+
+#win {
+	z-index: 1;
+	border: #ff6633 1px solid;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	display: none;
+	cursor: move;
+}
+
+#small-img {
+	width:  400px;
+}
+
+#big-box {
+	position: relative;
+	display: none;
+	overflow: hidden;
+	width: 160px;
+	height: 160px;
+}
+
+#big-img {
+	width: 1200px;
+	position:relative;
+
+}
